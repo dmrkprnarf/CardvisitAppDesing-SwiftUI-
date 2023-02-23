@@ -41,6 +41,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E63C9B729A7E0CF00BE22BB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5ED33202299FA9FB00CC976D /* Kanit-Regular.ttf */,
+				5ED33200299FA9E800CC976D /* Kanit-Medium.ttf */,
+				5ED33205299FAC1000CC976D /* Kanit-Light.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5E63C9B829A7E0F900BE22BB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ED331FD299F9FE900CC976D /* InfoView.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5E63C9B929A7E11200BE22BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5ED331F1299F962400CC976D /* ContentView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5ED331E3299F962400CC976D = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +86,13 @@
 		5ED331EE299F962400CC976D /* CardvisitApp */ = {
 			isa = PBXGroup;
 			children = (
-				5ED33204299FAA0D00CC976D /* Info.plist */,
-				5ED331FF299FA9B200CC976D /* Font */,
 				5ED331EF299F962400CC976D /* CardvisitAppApp.swift */,
-				5ED331F1299F962400CC976D /* ContentView.swift */,
-				5ED331FD299F9FE900CC976D /* InfoView.swift */,
-				5ED331F3299F962500CC976D /* Assets.xcassets */,
+				5E63C9B729A7E0CF00BE22BB /* Font */,
+				5E63C9B829A7E0F900BE22BB /* View Model */,
+				5E63C9B929A7E11200BE22BB /* Controller */,
 				5ED331F5299F962500CC976D /* Preview Content */,
+				5ED33204299FAA0D00CC976D /* Info.plist */,
+				5ED331F3299F962500CC976D /* Assets.xcassets */,
 			);
 			path = CardvisitApp;
 			sourceTree = "<group>";
@@ -77,16 +103,6 @@
 				5ED331F6299F962500CC976D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5ED331FF299FA9B200CC976D /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				5ED33200299FA9E800CC976D /* Kanit-Medium.ttf */,
-				5ED33202299FA9FB00CC976D /* Kanit-Regular.ttf */,
-				5ED33205299FAC1000CC976D /* Kanit-Light.ttf */,
-			);
-			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
